@@ -38,6 +38,8 @@ parser.parse("/path/to/your/dir/config.cfg");
 
 ## Build
 
+please replace `/path/to/your/dir` in `container/utils/PAM/_deps/parlaylib-subbuild/CMakeLists.txt` as your own path.
+
 ```bash
 git clone https://github.com/SJTU-Liquid/DynamicGraphStorage.git
 mkdir build && cd build

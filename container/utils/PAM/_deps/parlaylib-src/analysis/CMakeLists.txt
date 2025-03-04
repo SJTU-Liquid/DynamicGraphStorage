@@ -1,4 +1,4 @@
-include(danalysis)
+include(../cmake/danalysis.cmake)
 
 # List all files that should be considered for static analysis
 configure_danalysis(
